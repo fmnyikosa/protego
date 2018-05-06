@@ -12,9 +12,11 @@ The prototype demo can be seen at: http://www.robots.ox.ac.uk/~favour/protego
 
 ## Machine Learning Algorithm
 Method: GradientBoostingClassifier
+
 Why:    It performed the best in our parameter analysis.
 
 Others Tested: AdaBoost, XGBoost
+
 Why Abandoned: The were outperformed by GradientBoostingClassifier on various parameters in our analysis.
 
 Insight:
@@ -32,7 +34,7 @@ We restricted ourselves to ML approaches that we can train in a short amount of 
 3. This gives a model, which can classify the relationship between the header and the body of texts.
 
 
-## Our results
+## Our Results
 
 |               | agree         | disagree      | discuss       | unrelated     |
 |-----------    |-------        |----------     |---------      |-----------    |
