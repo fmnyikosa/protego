@@ -64,7 +64,7 @@ if __name__ == "__main__":
         X_test = Xs[fold]
         y_test = ys[fold]
 
-        clf = GradientBoostingClassifier(learning_rate=0.09, n_estimators=100, random_state=14128, verbose=True)
+        clf = GradientBoostingClassifier(learning_rate=0.09, n_estimators=120, random_state=14128, verbose=True)
         clf.fit(X_train, y_train)
 
         predicted = [LABELS[int(a)] for a in clf.predict(X_test)]
