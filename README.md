@@ -1,19 +1,21 @@
 # README
 
-Dear Reader and Judge. This document explains how to run the Protego code.
+Dear Reader and Judge, 
+
+This document explains how to run the Protego code and how to access the prototype demo.
 
 ## What is going on?
 
 The "Protego_backend_alpha.py" script plays a role in the backend of PROTEGOs dashboard for trend analysis and reputation management.
-See: http://www.robots.ox.ac.uk/~favour/protego
+
+The prototype demo can be seen at: http://www.robots.ox.ac.uk/~favour/protego
 
 ## Machine Learning Algorithm
 Method: GradientBoostingClassifier
-Why: It performed the best in our parameter analysis.
+Why:    It performed the best in our parameter analysis.
 
 Others Tested: AdaBoost, XGBoost
-Why Abandoned:
-The were outperformed by GradientBoostingClassifier on various parameters in our analysis.
+Why Abandoned: The were outperformed by GradientBoostingClassifier on various parameters in our analysis.
 
 Insight:
 It is easy to get the performance up to 74% and difficult to get the performance alot higher. It is similarly hard to perform at more than 80% on the training set with the methods we attempted.
