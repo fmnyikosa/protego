@@ -34,14 +34,5 @@ We restricted ourselves to ML approaches that we can train in a short amount of 
 3. This gives a model, which can classify the relationship between the header and the body of texts.
 
 
-## Our Results
-
-|               | agree         | disagree      | discuss       | unrelated     |
-|-----------    |-------        |----------     |---------      |-----------    |
-|   agree       |    173        |     10        |   1435        |   28          |
-| disagree      |    39         |     7         |   413         |   238         |
-|  discuss      |    221        |     7         |   3556        |   680         |
-| unrelated     |    10         |     3         |   358         |   17978       |
-Score: 8761.75 out of 11651.25     (75.20%)
 
 
